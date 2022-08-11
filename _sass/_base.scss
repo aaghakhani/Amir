@@ -5,7 +5,12 @@
 // Typography
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
-  color: var(--global-text-color);
+  color: var(--global-text-color)
+
+}
+
+p {
+  font-size: large;
 }
 
 hr {
@@ -34,6 +39,7 @@ a, table.table a {
 
 figure, img {
   max-width: 90vw;
+  border-radius: 10%;
 }
 
 blockquote {
@@ -67,6 +73,7 @@ blockquote {
 
   img {
     width: 100%;
+    border-radius: 10%;
   }
 
   .card-title {
@@ -93,13 +100,15 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
+  margin-top: 7px;
+  margin-left: 2.5rem;
   width: 100%;
 
   .address {
-    margin-bottom: 5px;
+    margin-bottom: 7px;
     margin-top: 5px;
     font-family: monospace;
+    font-size: 0.5rem;
     p {
       display: inline-block;
       margin: 0;
@@ -111,7 +120,9 @@ blockquote {
   .profile {
     width: 30%;
     .address {
-      p { display: block; }
+      p { display: block; 
+      text-align:left;
+      font-size:medium}
     }
   }
 }
@@ -133,6 +144,9 @@ blockquote {
 
 .navbar {
   box-shadow: none;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-transform: capitalize ;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
@@ -183,7 +197,7 @@ blockquote {
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -233,16 +247,36 @@ blockquote {
   }
 }
 
-#light-toggle {
-  padding: 0;
-  border: 0;
-  background-color: inherit;
+// News : selected news in about pages
+
+.news table td {
+  font-size: 1rem;
   color: var(--global-text-color);
-  &:hover {
-    color: var(--global-hover-color);
-  }
+  text-align: left;
 }
 
+.news table th {
+  color: var(--global-text-color);
+  padding-top : .9rem;
+  padding-right: 1rem;
+  width: 15%;
+  font-size: .95rem;
+}
+
+// for news page
+.news2 table td {
+  font-size: 1rem;
+  color: var(--global-text-color);
+  text-align: justify;
+}
+
+.news2 table th {
+  color: var(--global-text-color);
+  padding-top : .9rem;
+  padding-right: 1rem;
+  width: 15%;
+  font-size: .95rem;
+}
 // Social (bottom)
 
 .social {
@@ -526,6 +560,7 @@ footer.sticky-bottom {
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+          font-weight: bold;
         }
         > span.more-authors {
           color: var(--global-text-color-light);
@@ -626,6 +661,10 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post{
+  text-align: justify;
+  text-justify: auto;
+  font-size: 1rem;
+  width: auto;
   .post-meta{
     color: var(--global-text-color-light);
     font-size: 0.875rem;
