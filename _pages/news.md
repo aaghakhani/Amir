@@ -1,10 +1,17 @@
-<div class="news">
-  <h2>news</h2>
+---
+layout: page
+permalink: /news/
+title: news
+description:
+nav: true
+---
+
+<!-- News -->
+<div class="news2">
   {% if site.news != blank -%}
   <div class="table-responsive">
     <table class="table table-sm table-borderless">
-      {%- assign news = site.news | reverse -%} {% for item in news limit:
-      site.news_limit %}
+      {%- assign news = site.news | reverse -%} {% for item in news %}
       <tr>
         <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
         <td>

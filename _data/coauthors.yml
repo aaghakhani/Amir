@@ -1,34 +1,27 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Basdogan":
+  - firstname: ["Ipek"]
+    url: https://scholar.google.com/citations?user=8jS2PLoAAAAJ&hl=en
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Sitti":
+  - firstname: ["Metin", "S.", "Sitti. M.", "Metin Sitti"]
+    url: https://scholar.google.com/citations?user=YU4Ce_MAAAAJ&hl=en
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Pena-Francesch":
+  - firstname: ["Abdon", "APF"]
+    url: https://scholar.google.com/citations?hl=en&user=tm69i3UAAAAJ&view_op=list_works
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Shahsavan":
+  - firstname: ["Hamed"]
+    url: https://scholar.google.com/citations?user=WlXbQwUAAAAJ&hl=en
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Bediz":
+  - firstname: ["Bekir"]
+    url: https://scholar.google.com/citations?user=krExTosAAAAJ&hl=en
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Bozuyuk":
+  - firstname: ["Ugur"]
+    url: https://scholar.google.com/citations?user=H4pFzH4AAAAJ&hl=en
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Razansky":
+  - firstname: "Daniel"
+    url: http://www.razanskylab.org
