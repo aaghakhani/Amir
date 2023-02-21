@@ -5,7 +5,7 @@ inline: true
 ---
 
 Our recent paper "Reduced rotational flows enable the translation of surface-rolling microrobots in confined spaces
-" published in [Nature Communication](https://www.nature.com/articles/s41467-022-34023-z) shows the effect of the physical confinements on the locomotion of surface-rolling microrobots.
+" published in [Nature Communications](https://www.nature.com/articles/s41467-022-34023-z) shows the effect of the physical confinements on the locomotion of surface-rolling microrobots.
 
 <div class="row">
     <div class="col-sm">
