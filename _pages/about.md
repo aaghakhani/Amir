@@ -8,9 +8,9 @@ profile:
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p> School of Engineering, Newcastle University</p>
-    <p> Newcastle upon Tyne, NE1 7RU </p>
-    <p> amirreza.aghakhani@ncl.ac.uk</p>
+    <p> University of Stuttgart </p>
+    <p> Institute of biomaterials and biomolecular systems </p>
+    <p> amirreza.aghakhani@bio.uni-stuttgart.de</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
