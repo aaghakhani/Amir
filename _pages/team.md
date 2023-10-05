@@ -7,4 +7,4 @@ permalink: /team/
 
 # Open Positions
 
-- [Multiple PhD positions](assets/pdf/Advertisement.pdf)
+- [Multiple PhD positions](../assets/pdf/Advertisement.pdf)
